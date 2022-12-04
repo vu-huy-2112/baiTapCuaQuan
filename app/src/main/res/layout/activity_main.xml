@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen.MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/xam">
+
+    <EditText
+        android:textSize="16dp"
+        android:gravity="center"
+        android:background="@drawable/bg_bogoc"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:hint="Email"/>
+
+    <EditText
+        android:textSize="16dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:background="@drawable/bg_bogoc"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:hint="Password"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:text="Login"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:background="@drawable/bg_button"
+        android:layout_width="250dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:text="Forgot your password?"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:text="Register?"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="40dp"/>
+
+</LinearLayout>
